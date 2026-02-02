@@ -21,4 +21,4 @@ jobs:
         env:
           TARGET_URL: ${{ vars.TARGET_URL }}
           SIGNING_SECRET: ${{ secrets.SIGNING_SECRET }}
-        run: python application.py
+        run: devenv shell python application.py
